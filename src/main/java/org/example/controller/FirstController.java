@@ -24,4 +24,11 @@ public class FirstController {
         log.debug("请求参数：\n username:{},\n pwd:{}", username, password);
         return "result : " + username + "///" + password ;
     }
+
+    @RequestMapping("/testDevelop")
+    public String testDevelop(@RequestParam("name") String username, @RequestParam("pwd") String password) {
+        log.info("secondMethod");
+        log.debug("请求参数：\n username:{},\n pwd:{}", username, password);
+        return "develop : " + username + "///" + password ;
+    }
 }
