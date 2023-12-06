@@ -22,9 +22,13 @@ public class CompareTest {
     @Test
     //直方图比较
     public void DigestCompareTest() {
-        String path1 = this.getClass().getClassLoader().getResource("0/38-26-cut-codeRow2-26.jpg").getPath();
+//        String path1 = this.getClass().getClassLoader().getResource("0/38-26-cut-codeRow2-26.jpg").getPath();
+//        String path1 = this.getClass().getClassLoader().getResource("face/1.png").getPath();
+        String path1 = this.getClass().getClassLoader().getResource("face/face1.jpg").getPath();
         int length1 = path1.length();
-        String path2 = this.getClass().getClassLoader().getResource("0/38-32-cut-codeRow2-32.jpg").getPath();
+//        String path2 = this.getClass().getClassLoader().getResource("0/38-32-cut-codeRow2-32.jpg").getPath();
+//        String path2 = this.getClass().getClassLoader().getResource("face/2.png").getPath();
+        String path2 = this.getClass().getClassLoader().getResource("face/face2.jpg").getPath();
         int length2 = path2.length();
 
         String p1 =  path1.substring(1,length1);
@@ -41,9 +45,13 @@ public class CompareTest {
     @Test
     //异或比较
     public void XorCompareTest(){
-        String path1 = this.getClass().getClassLoader().getResource("0/38-26-cut-codeRow2-26.jpg").getPath();
+//        String path1 = this.getClass().getClassLoader().getResource("0/38-26-cut-codeRow2-26.jpg").getPath();
+//        String path1 = this.getClass().getClassLoader().getResource("face/1.png").getPath();
+        String path1 = this.getClass().getClassLoader().getResource("face/face1.jpg").getPath();
         int length1 = path1.length();
-        String path2 = this.getClass().getClassLoader().getResource("0/38-32-cut-codeRow2-32.jpg").getPath();
+//        String path2 = this.getClass().getClassLoader().getResource("0/38-32-cut-codeRow2-32.jpg").getPath();
+//        String path2 = this.getClass().getClassLoader().getResource("face/2.png").getPath();
+        String path2 = this.getClass().getClassLoader().getResource("face/face2.jpg").getPath();
         int length2 = path2.length();
         String p1 =  path1.substring(1,length1);
         String p2 =  path2.substring(1,length2);
