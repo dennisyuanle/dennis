@@ -1,6 +1,6 @@
-package util;
+package org.example.util;
 
-import entity.ProjectionEntity;
+import org.example.entity.ProjectionEntity;
 import org.opencv.core.Mat;
 
 import java.util.ArrayList;

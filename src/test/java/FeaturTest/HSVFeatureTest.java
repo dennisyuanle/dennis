@@ -1,7 +1,7 @@
 package FeaturTest;
 
-import Feature.HSVFeature;
-import Feature.ImageFeature;
+import org.example.Feature.HSVFeature;
+import org.example.Feature.ImageFeature;
 import org.junit.Test;
 
 import java.awt.image.BufferedImage;

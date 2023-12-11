@@ -1,7 +1,7 @@
 package FeaturTest;
 
-import Feature.FeatureVector;
-import Feature.ImageFeatureExtractor;
+import org.example.Feature.FeatureVector;
+import org.example.Feature.ImageFeatureExtractor;
 import org.junit.Test;
 import org.opencv.core.Mat;
 import org.opencv.imgcodecs.Imgcodecs;

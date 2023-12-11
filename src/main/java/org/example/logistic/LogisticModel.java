@@ -1,4 +1,4 @@
-package logistic;
+package org.example.logistic;
 
 import java.util.List;
 import java.util.Map;

@@ -1,7 +1,6 @@
-package Feature;
+package org.example.Feature;
 
 import java.awt.image.BufferedImage;
-import java.lang.Override;
 
 /*
  Creates histograms of quantized RGB images.

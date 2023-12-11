@@ -1,7 +1,7 @@
 package FeaturTest;
 
-import Feature.ImageFeature;
-import Feature.LBPFeature;
+import org.example.Feature.ImageFeature;
+import org.example.Feature.LBPFeature;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
