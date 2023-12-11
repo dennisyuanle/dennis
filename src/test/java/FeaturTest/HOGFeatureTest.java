@@ -1,7 +1,7 @@
 package FeaturTest;
 
-import Feature.HOGFeature;
-import Feature.ImageFeature;
+import org.example.Feature.HOGFeature;
+import org.example.Feature.ImageFeature;
 import org.junit.Test;
 
 import java.awt.image.BufferedImage;

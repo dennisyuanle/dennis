@@ -1,4 +1,4 @@
-package entity;
+package org.example.entity;
 
 public class ProjectionEntity {
     public ProjectionEntity(Integer index,Integer index1, Integer index2, Double num, Double signNum) {

@@ -1,4 +1,4 @@
-package Feature;
+package org.example.Feature;
 
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;

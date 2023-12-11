@@ -1,4 +1,4 @@
-package compare;
+package org.example.compare;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

@@ -1,7 +1,7 @@
 package FeaturTest;
 
-import Feature.ImageFeature;
-import Feature.RGBFeature;
+import org.example.Feature.ImageFeature;
+import org.example.Feature.RGBFeature;
 import org.junit.Test;
 
 import java.awt.image.BufferedImage;

@@ -1,15 +1,15 @@
-import Feature.FeatureVector;
-import Feature.ImageFeatureExtractor;
-import compare.XorCompare;
-import entity.CompareEntity;
+import org.example.Feature.FeatureVector;
+import org.example.Feature.ImageFeatureExtractor;
+import org.example.compare.XorCompare;
+import org.example.entity.CompareEntity;
 import org.junit.Test;
 import org.opencv.core.Mat;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import util.FileUtil;
-import logistic.LogisticModel;
-import util.JsonUtil;
+import org.example.util.FileUtil;
+import org.example.logistic.LogisticModel;
+import org.example.util.JsonUtil;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;

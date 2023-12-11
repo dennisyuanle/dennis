@@ -1,8 +1,6 @@
-package Feature;
+package org.example.Feature;
 
 import java.awt.image.BufferedImage;
-import java.lang.Override;
-import java.lang.Math;
 
 /*
  Creates a histogram of oriented gradients.

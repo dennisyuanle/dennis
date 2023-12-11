@@ -1,6 +1,5 @@
-package compare;
+package org.example.compare;
 
-import entity.BinaryFeatureEntity;
 import org.opencv.core.Mat;
 import org.opencv.core.Size;
 import org.opencv.imgproc.Imgproc;
