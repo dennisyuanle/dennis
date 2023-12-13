@@ -3,3 +3,4 @@
 /.idea/
 /src/test/resources/face/
 /src/main/resources/application.properties.bak
+/src/main/resources/application.properties
