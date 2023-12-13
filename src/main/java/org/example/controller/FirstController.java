@@ -51,14 +51,4 @@ public class FirstController {
         List<FunctionEntity> list = testService.getList(wrapper);
         return list;
     }
-
-    @RequestMapping("/getFunctions")
-    public List<FunctionEntity> getFunctions(@RequestParam("name") String name) {
-        log.info("getFunctions");
-        log.info("请求参数：name:{}", name);
-        LambdaQueryWrapper<FunctionEntity> wrapper = new LambdaQueryWrapper<>();
-        wrapper.like(StringUtils.isNotEmpty(name), FunctionEntity::getName, name);
-        List<FunctionEntity> list = testService.getList(wrapper);
-        return list;
-    }
 }
