@@ -14,7 +14,7 @@ import java.util.Date;
 public class FunctionEntity {
 
     @ApiModelProperty("id")
-    private int id;
+    private Long id;
 
     @ApiModelProperty("名称")
     private String name;

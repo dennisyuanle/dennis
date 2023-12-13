@@ -51,4 +51,27 @@ public class FirstController {
         List<FunctionEntity> list = testService.getList(wrapper);
         return list;
     }
+
+    @RequestMapping("/testWrapper")
+    public List<FunctionEntity> testWrapper(@RequestParam("id") Long id, @RequestParam("name") String name) {
+        log.info("testWrapper");
+        log.info("请求参数：id:{}, name:{}", id, name);
+        LambdaQueryWrapper<FunctionEntity> wrapper = new LambdaQueryWrapper<>();
+//        wrapper.eq(id != null, FunctionEntity::getId, id);
+        wrapper.ne(id != null, FunctionEntity::getId, id);
+        wrapper.like(StringUtils.isNotEmpty(name), FunctionEntity::getName, name);
+        List<FunctionEntity> list = testService.getList(wrapper);
+        return list;
+    }
+
+    @RequestMapping("/visitor")
+    public List<FunctionEntity> getVisitor() {
+        log.info("getVisitor");
+        LambdaQueryWrapper<FunctionEntity> wrapper = new LambdaQueryWrapper<>();
+//        wrapper.eq(id != null, FunctionEntity::getId, id);
+        wrapper.ne(FunctionEntity::getId, 2);
+        wrapper.ne(FunctionEntity::getId, 8);
+        List<FunctionEntity> list = testService.getList(wrapper);
+        return list;
+    }
 }
